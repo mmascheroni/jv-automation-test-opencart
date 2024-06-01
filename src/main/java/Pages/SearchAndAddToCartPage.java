@@ -10,7 +10,7 @@ public class SearchAndAddToCartPage extends BasePage {
     private By search = By.xpath("//*[@id=\"search\"]/input");
     private By searchBtn = By.xpath("//*[@id=\"search\"]/span/button");
     private By btnAddToCartFirstItem = By.xpath("//*[@id=\"content\"]/div[3]/div/div/div[2]/div[2]/button[1]");
-    private By successMessageAddToCart = By.xpath("//*[@id=\"product-search\"]/div[1]");
+    private By successMessageAddToCart = By.xpath("/html/body/div[2]/div[1]/a[2]");
 
 
     public SearchAndAddToCartPage(WebDriver driver, WebDriverWait wait) {
