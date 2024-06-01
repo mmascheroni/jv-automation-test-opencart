@@ -159,7 +159,7 @@ class RegisterSearchAndAddToCartTest {
 
 	@AfterAll
 	public void close() throws InterruptedException {
-//		driver.quit();
+		driver.quit();
 		extent.flush();
 	}
 
